@@ -2,6 +2,20 @@
 
 /* Media Query - Mobile First*/
 
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Inconsolata:wght@200..900&family=Playwrite+US+Modern:wght@100..400&family=Sriracha&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+
+:root{
+    --cinzaclaro: #bcb8b9;
+    --cinzaescuro: #4a4949;
+    --fundo: #000000;
+    --laranjaclaro: #eb5b35;
+    --laranjaescuro: #4c190e;
+    --titulo: "Carrois Gothic", sans-serif;
+
+}
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,10 +23,10 @@
 }
 
 header{
-    background-image: linear-gradient(to bottom, orange, grey);
+    background-image: linear-gradient(to bottom, var(--cinzaclaro), var(--cinzaescuro), var(--fundo));
     display: block;
     width: 100vw;
-    height: 300px;
+    height: 500px;
 }
 
 header > img{
@@ -22,18 +36,47 @@ header > img{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+header > h1{
+    color: white;
     text-align: center;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: var(--titulo)
+}
+
+header > nav{
+    display: block;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+header > nav > a{
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+body{
+    background-color: var(--fundo);
 }
 
 section.sobre{
-    background-color: aquamarine;
-    width: 65%;
+    background-image: linear-gradient(to left, var(--laranjaclaro), var(--laranjaescuro));
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.253);
+    width: 80%;
     margin: auto;
-    border-radius: 20px;
 }
 
-section.sobre > div.sobre{
-    width: 75%;
+section.sobre > img{
+    display: block;
+    width: 40%;
+    max-width: 250px;
+    padding: 20px;
     margin: auto;
-    text-align: center;
 }
+
