@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Media Query - TELAS GRANDES*/
+
+@media (min-width: 900px){
+    section.serv{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 10px;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: space-evenly;
+    }
+
+section.serv > div.tipo > p{
+    width: 25vw;
+    }
+
+section.sobre{
+    display: flex;
+}
+
+section.sobre > img{
+    justify-content: flex-start;
+    width: 900px;
+}
+
+section.sobre > p{    
+    text-align: justify;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+}
+
+section.sobre > div.form{
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+section.sobre > div.form > p{
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    padding: 20px;
+    margin: auto;    
+}
+}
