@@ -1,6 +1,6 @@
 <!-- Banner -->
 <p align="center">
-  <img src="#" alt="Civil Engineering Services" width="100%">
+  <img src="img-readme/banner.jpg" alt="Civil Engineering Services" width="100%">
 </p>
 
 <h1 align="center">CIVIL ENGINEERING SERVICES</h1>
@@ -49,7 +49,7 @@ Funcionalidades
 **Veja o projeto online:** [https://amandacauzin.github.io/ac-engineering](https://amandacauzin.github.io/ac-engineering)  
 
 <p align="center">
-  <img src="#" alt="Preview do projeto" width="80%">
+  <img src="img-readme/preview.jpg" alt="Preview do projeto" width="80%">
 </p>
 
 ---
